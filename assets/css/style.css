@@ -848,6 +848,18 @@ h2 {
     transition: 0.5s;
 }
 
+::placeholder {
+    color: #637588;
+    font-size: 1.125rem;
+    transition: 0.5s;
+
+}
+
+:hover::placeholder,
+:focus::placeholder {
+    color: #ffffff;
+}
+
 .subscribe input:hover,
 .subscribe input:focus {
     background-color: rgba(255, 255, 255, 0.15);
@@ -957,7 +969,7 @@ h2 {
 }
 
 .footer {
-    background-color: #1B2030;
+    background-color: #2D3651;
     padding: 50px 20px 70px;
     text-align: center;
 }
